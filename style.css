@@ -265,5 +265,9 @@ footer {
 .detail-content h3 { margin: 20px 0 5px; color: #424b52; font-size: 18px; }
 .detail-content ul { padding-left: 24px; }
 .detail-content a { color: var(--teal); text-decoration: underline; }
+.gallery-files { grid-column: 1 / -1; border-top: 1px solid var(--line); padding-top: 18px; }
+.gallery-files h3 { margin: 0 0 10px; color: #28545a; font-size: 16px; }
+.gallery-files ul { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 8px; }
+.gallery-files a { color: var(--teal); text-decoration: underline; font-size: 14px; word-break: break-word; }
 @media (max-width: 900px) { .product-detail { grid-template-columns: 1fr; } .detail-gallery { padding: 20px; } .detail-image { height: 440px; } .detail-content { padding: 30px 24px; } }
 @media (max-width: 560px) { .detail-gallery { grid-template-columns: 1fr; } .detail-image { height: 420px; } }
