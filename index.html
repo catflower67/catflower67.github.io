@@ -1,20 +1,44 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Мой тестовый сайт</title>
-  <link rel="stylesheet" href="styles.css">
+  <title>S2L — Industrial Sensors</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <main class="container">
-    <h1>Привет, GitHub Pages! 👋</h1>
-    <p>Это мой первый тестовый статический сайт.</p>
 
-    <button id="helloButton">Нажми меня</button>
-    <p id="message"></p>
-  </main>
+<header class="header">
+  <div class="container header-inner">
+    <a href="#" class="logo">S2L</a>
+  </div>
+</header>
 
-  <script src="script.js"></script>
+<main class="container">
+
+  <section class="products" id="product">
+    <div class="section-bar">
+      <h2>PRODUCTS</h2>
+    </div>
+
+    <!-- The only product card -->
+    <a href="product.html" class="product-card">
+      <div class="product-image">
+        <img src="assets/laser-sensor.png" alt="Industrial Laser Distance Sensor">
+      </div>
+
+      <div class="product-content">
+        <h3>Industrial Laser<br>Distance Sensor<br>(RS485/4-20mA)</h3>
+        <span class="view-product">VIEW PRODUCT</span>
+      </div>
+    </a>
+  </section>
+
+</main>
+
+<footer>
+  <div class="container">© 2026 S2L. All rights reserved.</div>
+</footer>
+
 </body>
 </html>
